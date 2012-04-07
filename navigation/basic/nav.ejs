@@ -1,0 +1,9 @@
+<% if (firstInCollection){ %> <ul> <% } %>
+<% if (nav.css) { %>
+<li class="<%- nav.css %>">
+<% } else { %>
+<li>
+<% } %>
+	<a href="<%- nav.url %>"><%- nav.title %></a> 
+</li>
+<% if (lastInCollection){ %> </ul> <% } %>
