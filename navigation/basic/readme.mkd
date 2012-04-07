@@ -1,0 +1,11 @@
+This template should output the following markup
+
+<ul>
+	<li class="class">
+		<a href="url">title</a>
+	</li>
+</ul>
+
+You would populate it with the following fields
+
+title, url, class (optional)
