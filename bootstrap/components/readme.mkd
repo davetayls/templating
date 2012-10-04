@@ -1,0 +1,27 @@
+This template should output the following markup
+
+	<ul class="breadcrumb">
+	  <li><a href="/">Home</a> <span class="divider">/</span></li>
+	  <li><a href="/library">Library</a> <span class="divider">/</span></li>
+	  <li class="active">Data</li>
+	</ul>
+
+Example data
+------------
+
+	[
+		{
+			title: "Home",
+			url: "/",
+			class: "class"
+		},
+		{
+			title: "Library",
+			url: "/library"
+		},
+		{
+			title: "Data"
+		}
+	]
+
+
