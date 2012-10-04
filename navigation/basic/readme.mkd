@@ -6,6 +6,22 @@ This template should output the following markup
 		</li>
 	</ul>
 
-You would populate it with the following fields
-
+Data map
+--------
 title, url, class (optional)
+
+Example data
+------------
+
+	[
+		{
+			title: "title",
+			url: "url",
+			class: "class"
+		},
+		{
+			title: "title",
+			url: "url"
+		}
+	]
+
